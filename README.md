@@ -1,4 +1,5 @@
-# gost-db-dump-dummy: application of gost-db-dump for huge observation table:
+# gost-db-dump-dummy: application of gost-db-dump for huge observation table (https://github.com/MONICA-Project/gost-db-dump)
+
 `dump_gost_db.sh` has been changed to dump the all db except v1.observation, dump the schema of v1.observation, and save some parts according a query
 
 This is a simple docker-compose setup to dump a GOST database from the MONICA cloud and deploy it locally on your machine. Check first if the database you want to export has a manageable size:
