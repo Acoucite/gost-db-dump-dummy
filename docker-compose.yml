@@ -12,7 +12,7 @@ services:
       - GOST_DB_PORT=5432
       - GOST_DB=gost_woodstower
       - GOST_DB_USER=monica_accou
-      - GOST_DB_PASSWORD=????
+      - GOST_DB_PASSWORD=??????
     command: ["/monica/dump_gost_db.sh"]
 
   gost-db:
